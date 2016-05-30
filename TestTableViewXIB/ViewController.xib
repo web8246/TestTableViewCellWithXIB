@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="myTableView" destination="7an-4v-lr0" id="Ysg-PY-zj2"/>
+                <outlet property="view" destination="iN0-l3-epB" id="WrS-gy-hMD"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="7an-4v-lr0">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7an-4v-lr0" secondAttribute="bottom" id="2i9-NY-Wag"/>
+                <constraint firstItem="7an-4v-lr0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="I8N-qR-nzD"/>
+                <constraint firstAttribute="trailing" secondItem="7an-4v-lr0" secondAttribute="trailing" id="MRW-JA-OEe"/>
+                <constraint firstItem="7an-4v-lr0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="eu6-E7-vqI"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
